@@ -44,3 +44,26 @@ ATTENTION Aurelien aurelien1 = new Personne("Aurelien",22) NOK  -> Classe mère 
 
 
 - Surcharge: nom ou arguments différents mais même classe
+
+# Généricité / Interface : pb de l'imprimante
+
+List l = new Vector; -> à privilégier
+
+vs
+
+Vector v = new Vector();
+
+# Itérateurs
+
+## Externe
+
+- Iterator : list.iterator
+- while
+- for
+- for (Personne p : list) (foreach)
+
+## Interne
+
+- Stream : entiers.stream().forEach(e -> System.out.prinln(e));
+
+-> *Lambda* : Interface fonctionnelle contenant 1 seule méthode
